@@ -254,6 +254,10 @@ body {
 		&__description {
 			font-size: 14px;
 			line-height: 24px;
+			span{
+				text-decoration: line-through;
+				color: rgba(0, 0, 0, 0.685);
+			}
 		}
 	}
 

@@ -353,6 +353,11 @@ body {
   line-height: 24px;
 }
 
+.main .card-main__description span {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.685);
+}
+
 .main .about-main {
   display: -webkit-box;
   display: -ms-flexbox;
