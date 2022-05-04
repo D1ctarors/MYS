@@ -206,6 +206,19 @@ body {
 			overflow: hidden;
 			background-color: #000;
 			border-radius: 1.1em;
+			position: relative;
+			&.none{
+				&::before{
+					content: 'None';
+					position: absolute;
+					color: rgba(255, 255, 255, 0.185);
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					font-size: 36px;
+				}
+
+			}
 			
 			img {
 				width: 100%;
