@@ -207,15 +207,17 @@ body {
 			background-color: #000;
 			border-radius: 1.1em;
 			position: relative;
+			z-index: 2;
 			&.none{
 				&::before{
-					content: 'None';
+					content: 'NaN';
 					position: absolute;
 					color: rgba(255, 255, 255, 0.185);
 					top: 50%;
 					left: 50%;
 					transform: translate(-50%, -50%);
 					font-size: 36px;
+					z-index: -1;
 				}
 
 			}
